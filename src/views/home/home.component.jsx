@@ -18,7 +18,6 @@ import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 const back = process.env.REACT_APP_BACK;
 
 const Home = () => {
-   console.log("holaa");
 
   const dispatch = useDispatch();
   const [visits, setVisits] = useState(0);
